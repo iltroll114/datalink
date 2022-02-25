@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {
+  background-color:grey;
+  
+}
+button {
+   margin-left:45%;
+   margin-right:45%;
+ 
+} 
+p {
+ text-align: center;
+ 
+ 
+} 
+p1 {
+
+ text-align: center;
+ 
+ 
+} 
+</style>
+<body>
+<script>
+function cambiaParagrafo() {
+  var x = document.getElementById("pf");
+  if (x.innerHTML === "il datalink è il secondo livello del modello iso-osi che fa da <br> intermediario tra il 1st e il 3th livello <br> é diviso in llc e mac <br>l'llc:si occupa ddella comunicazione con il livello di rete e il sottolivello mac <br>il mac:si occupa di trasmettere i veri e propri pacchetti<br>utilizzando l'algoritmo CSMA/CD ioltre si occupa di gestire <br> gli standard di rete di tutti i dispositvi della rete") {
+    x.innerHTML = "";
+  } else {
+    x.innerHTML = "il datalink è il secondo livello del modello iso-osi che fa da <br> intermediario tra il 1st e il 3th livello <br> é diviso in llc e mac <br>l'llc:si occupa ddella comunicazione con il livello di rete e il sottolivello mac <br>il mac:si occupa di trasmettere i veri e propri pacchetti<br>utilizzando l'algoritmo CSMA/CD ioltre si occupa di gestire <br> gli standard di rete di tutti i dispositvi della rete";
+  }
+}
+function cambiaParagrafo1() {
+  var x = document.getElementById("px");
+  if (x.innerHTML ==="lo standard IEEE 802.3 delle schede ethernet nasce tra il 1973<br> e il 1976 e serve per standardizzare l'accesso alle reti <br> con il cavo coassiale che supportava una velocita di 10Mbi <br> tutti i dispositivi conformi allo standard 802.3 possono collegarsi alla rete <br>c'è bisogno di una scheda di rete ethernet o NIC (network interface card) <br> lo standard IEEE ha molte famiglie che vengono suddivise in <br> standard di reti locali :802.4 token bus <br> tecnologie diverse:802.8 fiber optic") {
+    x.innerHTML = "";
+  } else {
+    x.innerHTML = "lo standard IEEE 802.3 delle schede ethernet nasce tra il 1973<br> e il 1976 e serve per standardizzare l'accesso alle reti <br> con il cavo coassiale che supportava una velocita di 10Mbi <br> tutti i dispositivi conformi allo standard 802.3 possono collegarsi alla rete <br>c'è bisogno di una scheda di rete ethernet o NIC (network interface card) <br> lo standard IEEE ha molte famiglie che vengono suddivise in <br> standard di reti locali :802.4 token bus <br> tecnologie diverse:802.8 fiber optic";
+  }
+}
+function cambiaParagrafo2() {
+  var x = document.getElementById("py");
+  if (x.innerHTML ==="l'indirizzo mac è un indirizzo univoco fisico della scheda di rete <br> composto da 6 byte 3 indicano il produttore mentre <br> gli ultimi 3 indicano il pordotto in di per se") {
+    x.innerHTML = "";
+  } else {
+    x.innerHTML = "l'indirizzo mac è un indirizzo univoco fisico della scheda di rete <br> composto da 6 byte 3 indicano il produttore mentre <br> gli ultimi 3 indicano il pordotto in di per se" ;
+  }
+}
+function cambiaParagrafo3() {
+  var x = document.getElementById("pz");
+  if (x.innerHTML ==="il frame è il messaggio rivisto al livello <br>  data link è diviso secondo lo standard 802.3 in: <br> <br> preambolo: un avviso,il pre-messaggio<br> SFD:inizio del messaggio<br> Mac destinatario<br> Mac mittente<br> lunghezza<br> dati<br> FCS:serve per controllare gli errori al interno <br> del messaggio essi vengono salvati qui") {
+    x.innerHTML = "";
+  } else {
+    x.innerHTML ="il frame è il messaggio rivisto al livello <br>  data link è diviso secondo lo standard 802.3 in: <br> <br> preambolo: un avviso,il pre-messaggio<br> SFD:inizio del messaggio<br> Mac destinatario<br> Mac mittente<br> lunghezza<br> dati<br> FCS:serve per controllare gli errori al interno <br> del messaggio essi vengono salvati qui" ;
+  }
+}
+</script>
+
+
+
+
+
+ <center>
+<h1 style="color:red;font-family:Fantasy";>Il datalink <h1>
+</center >
+
+
+<p  id="pf" ></p>
+<center>
+<button onclick="cambiaParagrafo()">il datalink</button>
+</center>
+
+<center>
+<p1  id="px" ></p1>
+</center>
+<button onclick="cambiaParagrafo1()">storia dello standard 802.3</button>
+
+<center>
+<p2  id="py" ></p2>
+</center>
+<button onclick="cambiaParagrafo2()">indirizzo mac</button>
+
+<center>
+<p3  id="pz" ></p3>
+<button onclick="cambiaParagrafo3()">frame</button>
+</center>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<center>
+<img src="https://lh3.googleusercontent.com/pw/AM-JKLV9pjRTM-8FG0reW8B6jObZYRct0ZR5_iO9_j9xMgqCKm4-w_PEyn3NxyREK0Dt2aAttCBP0Gqj_DQXlw5ZKKa2UGQVWXzS6rN_9finvwpxQEh-9okLRPdvpsd_w6m6-_3twJIF1NdU28sVLlxAYGpe=w1383-h776-no?authuser=0"/>
+</center >
+
+
+

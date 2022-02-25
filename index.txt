@@ -74,13 +74,13 @@ function cambiaParagrafo3() {
 
 <center>
 <p1  id="px" ></p1>
-</center>
 <button onclick="cambiaParagrafo1()">storia dello standard 802.3</button>
+</center>
 
 <center>
 <p2  id="py" ></p2>
-</center>
 <button onclick="cambiaParagrafo2()">indirizzo mac</button>
+</center>
 
 <center>
 <p3  id="pz" ></p3>

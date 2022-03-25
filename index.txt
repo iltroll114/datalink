@@ -89,13 +89,7 @@ function cambiaParagrafo3() {
 
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 <br>
 
 <center>

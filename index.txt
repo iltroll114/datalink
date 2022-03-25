@@ -87,11 +87,6 @@ function cambiaParagrafo3() {
 <button onclick="cambiaParagrafo3()">frame</button>
 </center>
 
-
-
-
-<br>
-
 <center>
 <img src="https://lh3.googleusercontent.com/pw/AM-JKLV9pjRTM-8FG0reW8B6jObZYRct0ZR5_iO9_j9xMgqCKm4-w_PEyn3NxyREK0Dt2aAttCBP0Gqj_DQXlw5ZKKa2UGQVWXzS6rN_9finvwpxQEh-9okLRPdvpsd_w6m6-_3twJIF1NdU28sVLlxAYGpe=w1383-h776-no?authuser=0"/>
 </center >
